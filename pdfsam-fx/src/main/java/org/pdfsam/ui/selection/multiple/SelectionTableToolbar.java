@@ -210,7 +210,11 @@ class SelectionTableToolbar extends ToolBar implements ModuleOwned {
             setText(DefaultI18nContext.getInstance().i18n("Move _Down"));
         }
     }
- 
+    /**
+     * Change Request #1 
+     * @author Anurag Kumar
+     *
+     */
     static class MoveTopButton extends BaseMoveSelectedButton {
 
         public MoveTopButton(String ownerModule) {
